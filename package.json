@@ -1,0 +1,21 @@
+{
+  "name": "code-quality-analyzer",
+  "version": "1.0.0",
+  "description": "AI-powered GitHub pull request code review using Claude.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "@octokit/rest": "^22.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pino": "^9.9.0"
+  }
+}
